@@ -1,0 +1,11 @@
+{
+  "name": "genpark-adaptive-batch-request-debouncer-skill",
+  "version": "1.0.1",
+  "description": "Adaptive sliding window query debouncing and micro-batch coalescing engine optimizing LLM and tool call throughput",
+  "tools": [
+    "add_request",
+    "flush_ready_batches",
+    "get_batch_metrics",
+    "clear_batches"
+  ]
+}
