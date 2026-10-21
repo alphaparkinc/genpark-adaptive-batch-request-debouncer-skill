@@ -1,0 +1,7 @@
+name: genpark-adaptive-batch-request-debouncer-skill
+description: Adaptive sliding window query debouncing and micro-batch coalescing engine optimizing LLM and tool call throughput
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
